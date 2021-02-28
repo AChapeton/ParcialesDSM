@@ -60,7 +60,7 @@
                         android:text="Nombre:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName"
+                        android:id="@+id/txtNombre1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -79,7 +79,7 @@
                         android:text="Apellido:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName2"
+                        android:id="@+id/txtApellido1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -98,7 +98,7 @@
                         android:text="Cargo:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName3"
+                        android:id="@+id/txtCargo1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -117,11 +117,11 @@
                         android:text="Horas trabajadas:" />
 
                     <EditText
-                        android:id="@+id/editTextNumber"
+                        android:id="@+id/txtHoras1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="number" />
+                        android:inputType="textPersonName" />
 
                 </TableRow>
             </TableLayout>
@@ -157,7 +157,7 @@
                         android:text="Nombre:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName4"
+                        android:id="@+id/txtNombre2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -175,7 +175,7 @@
                         android:text="Apellido:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName5"
+                        android:id="@+id/txtApellido2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -193,7 +193,7 @@
                         android:text="Cargo:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName6"
+                        android:id="@+id/txtCargo2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -211,11 +211,11 @@
                         android:text="Horas trabajadas:" />
 
                     <EditText
-                        android:id="@+id/editTextNumber2"
+                        android:id="@+id/txtHoras2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="number" />
+                        android:inputType="textPersonName" />
 
                 </TableRow>
             </TableLayout>
@@ -251,7 +251,7 @@
                         android:text="Nombre:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName8"
+                        android:id="@+id/txtNombre3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -269,7 +269,7 @@
                         android:text="Apellido:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName9"
+                        android:id="@+id/txtApellido3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -287,7 +287,7 @@
                         android:text="Cargo:" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName10"
+                        android:id="@+id/txtCargo3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -305,11 +305,12 @@
                         android:text="Horas trabajadas:" />
 
                     <EditText
-                        android:id="@+id/editTextNumber3"
+                        android:id="@+id/txtHoras3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="number" />
+                        android:inputType="textPersonName" />
+
                 </TableRow>
             </TableLayout>
 
@@ -317,6 +318,7 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="AnswerActivity"
                 android:text="Enviar" />
 
         </LinearLayout>
