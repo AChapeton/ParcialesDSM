@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "725097689481",
+    "project_id": "farmacia-1918d",
+    "storage_bucket": "farmacia-1918d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725097689481:android:3e14a830333f2467d27158",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.parciallab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725097689481-33d81mgd8sbnjp1muv6p2aojld6rqjv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sv.edu.udb.parciallab2",
+            "certificate_hash": "00a5ca8400633abd1367221f0fd5a182a304d8ac"
+          }
+        },
+        {
+          "client_id": "725097689481-1gbhotfu06jmp5lej2qt9rleei7dgbep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6TLBV-dajVI7ofOJQX7RU_2_HwWt2yCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725097689481-1gbhotfu06jmp5lej2qt9rleei7dgbep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
