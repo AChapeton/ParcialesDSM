@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ParcialLab2</string>
+    <string name="slogan">Farmacia cerca de ti. #TapTapDelivery</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
 </resources>
